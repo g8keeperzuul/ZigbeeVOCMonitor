@@ -1,0 +1,21 @@
+# --- Zigbee stack -----------------------------------------------------------
+CONFIG_ZB_ENABLED=y
+CONFIG_ZB_RADIO_NATIVE=y
+# Router: mains-powered, always awake, relays traffic and accepts children.
+CONFIG_ZB_ZCZR=y
+
+# --- Partition table (see partitions.csv: zb_storage / zb_fct) --------------
+CONFIG_PARTITION_TABLE_CUSTOM=y
+CONFIG_PARTITION_TABLE_CUSTOM_FILENAME="partitions.csv"
+
+# --- 802.15.4 radio ---------------------------------------------------------
+CONFIG_IEEE802154_ENABLED=y
+
+# --- Flash: 16 MB on this board ---------------------------------------------
+CONFIG_ESPTOOLPY_FLASHSIZE_16MB=y
+
+# --- The ZBOSS stack expects a 1 ms tick ------------------------------------
+CONFIG_FREERTOS_HZ=1000
+
+# --- Logging ----------------------------------------------------------------
+CONFIG_LOG_DEFAULT_LEVEL_INFO=y
