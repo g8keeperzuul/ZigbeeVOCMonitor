@@ -45,8 +45,8 @@ searching again.
 | Part | Notes |
 |---|---|
 | [ESP32 C6](https://docs.espressif.com/projects/esp-dev-kits/en/latest/esp32c6/esp32-c6-devkitc-1/user_guide.html) | C6 variety needed for Zigbee stack support; flash use is only about 700KB |
-| [Sensiron SEN55](https://sensirion.com/products/catalog/SEN55) | Air sensor for articulate count, NOx, VOCs, temperature and relative humidity |
-| [Waveshare 2.13" e-Paper Display](https://www.waveshare.com/wiki/2.13inch_e-Paper_HAT) | 250x122 llack and white e-paper display | 
+| [Sensiron SEN55](https://sensirion.com/products/catalog/SEN55) | Air sensor for particulate count, NOx, VOCs, temperature and relative humidity |
+| [Waveshare 2.13" e-Paper Display](https://www.waveshare.com/wiki/2.13inch_e-Paper_HAT) | 250x122 black and white e-paper display | 
 
 ![breadboard](./docs/pictures/voc-monitor-01.jpg)
 
